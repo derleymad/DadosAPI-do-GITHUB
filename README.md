@@ -11,9 +11,7 @@ com as maiores contribuições por Pull Requests daquele repositório.
 
 ### 2 – Procedimentos Experimentais:
 De início, para o desenvolvimento do script,
-foi usado o shell do linux, em um ambiente simulado para emulação de computador em
-mobile. Porém, a exclusão deste, faz-se possível repetir o mesmo resultado. De forma
-arbitraria, foi escolhido um ponto de partida, e em seguida, obedecendo a filtragem dos
+foi usado o bash do linux. De forma arbitraria, foi escolhido um ponto de partida, e em seguida, obedecendo a filtragem dos
 repositórios com *x > 1000* estrelas que contenha ao menos *200 Pull Requests* como Closed,
 foram selecionados 4 repositórios de cada uma das seguintes linguagens:
 ```
@@ -66,8 +64,8 @@ JAVASCRIPT vuejs vue
 JAVASCRIPT facebook react
 JAVASCRIPT twbs bootstrap
 ```
-Com todas as amostras necessárias no arquivo de texto, agora basta a criação de um script
-autossuficiente que manipule cada linha , faça as requisições, filtragem e gere os *.csv* como
+Com todas as amostras necessárias no arquivo de texto, agora basta a criação do script
+autossuficiente que manipule cada linha , faça as requisições, filtre e gere os *.csv* como
 nomes próprios, toma-se o exemplo do primeiro item da lista:
 
 *java_iluwatar_java-design-patterns.csv*
